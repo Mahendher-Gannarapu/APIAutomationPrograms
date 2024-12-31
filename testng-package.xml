@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="API Automation Programs" verbose="2" preserve-order="true">
+        <parameter name="browser" value="chrome"></parameter>
+
+        <groups>
+            <run>
+                <include name="reg"></include>
+                <include name="qa"></include>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.mahendhergannarapu.TestNG_Examples"></package>
+        </packages>
+    </test>
+</suite>

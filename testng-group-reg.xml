@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<test name="API Automation Programs" verbose="2" preserve-order="true">
+    <groups>
+        <run>
+            <include name="reg"></include>
+        </run>
+    </groups>
+
+    <classes>
+        <class name="com.mahendhergannarapu.TestNG_Examples.APITesting04_TestNG_Groups_Reg">
+        </class>
+    </classes>
+</test>
+</suite>

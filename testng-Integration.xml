@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<test name="API Automation Programs" verbose="2" preserve-order="true">
+
+     <classes>
+         <!--  <class name="com.mahendhergannarapu.Integration.APITesting011_TestCase_Integration">
+         </class> -->
+        <class name="com.mahendhergannarapu.Integration.Task_04122024.Integration_Scenarios_Negative">
+        </class>
+    </classes>
+</test>
+</suite>
